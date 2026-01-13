@@ -1,0 +1,16 @@
+{
+  "name": "ravefarm",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && cd dist/ && node index.js"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.2.0",
+    "zod": "^4.3.5"
+  }
+}
