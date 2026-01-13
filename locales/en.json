@@ -2,7 +2,8 @@
   "logo": "Ll9fX19fXyAgLl9fX19fXyAgLl9fXyAgICAgLl9fX19fX18uX19fX19fXy5fX19fX18gIC5fX19fX18gIC5fX19fXy5fX18gCjogX18gICBcIDogICAgICBcIHwgICB8X19fIDogLl9fX18vOl8gX19fXy86ICAgICAgXCA6IF9fICAgXCA6ICAgICAgICAgfAp8ICBcX19fX3x8ICAgLiAgIHx8ICAgfCAgIHx8IDogXy9cIHwgICBfLyAgfCAgIC4gICB8fCAgXF9fX198fCAgIFwgIC8gIHwKfCAgIDogIFwgfCAgIDogICB8fCAgIDogICB8fCAgIC8gIFx8ICAgfCAgIHwgICA6ICAgfHwgICA6ICBcIHwgICB8XC8gICB8CnwgICB8X19fXHxfX198ICAgfCBcICAgICAgfHxfLjogX18vfF8uIHwgICB8X19ffCAgIHx8ICAgfF9fX1x8X19ffCB8ICAgfAp8X19ffCAgICAgICAgfF9fX3wgIFxfX19fLyAgICA6LyAgICAgOi8gICAgICAgIHxfX198fF9fX3wgICAgICAgICAgfF9fX3wKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg",
   "logoCredit": "                Script by celt\n",
   "enters": {
-    "chooseAction": "Choose an action:"
+    "chooseAction": "Choose an action:",
+    "chooseLanguage": "Choose a language:"
   },
   "choices": {
     "main": [
@@ -15,6 +16,30 @@
         "name": "Settings",
         "description": "Configure script settings",
         "value": "settings"
+      }
+    ],
+    "settings": [
+      {
+        "name": "Change Language",
+        "description": "Change the language of the script",
+        "value": "changeLanguage"
+      },
+      {
+        "name": "Back",
+        "description": "Go back to the main menu",
+        "value": "back"
+      }
+    ],
+    "languages": [
+      {
+        "name": "Russian",
+        "description": "Russian language",
+        "value": "ru"
+      },
+      {
+        "name": "English",
+        "description": "English language",
+        "value": "en"
       }
     ]
   }
