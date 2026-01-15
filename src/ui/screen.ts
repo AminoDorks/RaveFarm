@@ -2,6 +2,7 @@ import { COLORS, HANDLERS, PATHS } from '../constants';
 import { load } from '../utils/loaders';
 import { Locale, LocaleSchema } from '../schemas/locale';
 import { buildSelect } from './inquirer';
+import { Mesh } from 'ravejs/dist/schemas';
 
 export const colorize = (text: string): string =>
   `${COLORS.red}${text}${COLORS.reset}`;
@@ -13,6 +14,10 @@ export const display = (
   console.log(
     `${elements.map((element) => `${colorize('[')}${element}${colorize(']')}`).join('')}: ${colorize(end)}`,
   );
+};
+
+export const meshLog = (log: string, mesh: Mesh) => {
+  display(log.replace('%s', mesh.videoTitle), [mesh.id]);
 };
 
 export class Screen {

@@ -7,10 +7,11 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "tsc && cd dist/ && node index.js"
+    "start": "tsc && cd dist/ && node index.js"
   },
   "dependencies": {
     "@inquirer/prompts": "^8.2.0",
+    "ravejs": "^1.18.16",
     "zod": "^4.3.5"
   }
 }

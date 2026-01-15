@@ -3,7 +3,19 @@
   "logoCredit": "                Script by celt\n",
   "enters": {
     "chooseAction": "Выберите действие:",
-    "chooseLanguage": "Выберите язык:"
+    "chooseLanguage": "Выберите язык:",
+    "enterToken": "Введите токен:",
+    "enterDeviceId": "Введите ID устройства:",
+    "enterRoomsQuantity": "Введите количество рум:"
+  },
+  "logs": {
+    "loggedInto": "Вход выполнен в Rave как %s",
+    "roomJoined": "Присоединился к комнате %s"
+  },
+  "errors": {
+    "tooManyRooms": "Слишком много комнат",
+    "couldntJoinRoom": "Не удалось присоединиться к комнате %s",
+    "roomError": "Ошибка при работе с комнатой %s"
   },
   "choices": {
     "main": [

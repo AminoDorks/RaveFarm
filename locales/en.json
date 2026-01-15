@@ -3,7 +3,19 @@
   "logoCredit": "                Script by celt\n",
   "enters": {
     "chooseAction": "Choose an action:",
-    "chooseLanguage": "Choose a language:"
+    "chooseLanguage": "Choose a language:",
+    "enterToken": "Enter token:",
+    "enterDeviceId": "Enter device ID:",
+    "enterRoomsQuantity": "Enter rooms quantity:"
+  },
+  "logs": {
+    "loggedInto": "Logged into Rave as %s",
+    "roomJoined": "Joined room %s"
+  },
+  "errors": {
+    "tooManyRooms": "Too many rooms entered",
+    "couldntJoinRoom": "Couldn't join room %s",
+    "roomError": "Error occurred while working with room %s"
   },
   "choices": {
     "main": [
