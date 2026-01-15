@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@inquirer/prompts": "^8.2.0",
-    "ravejs": "^1.18.16",
+    "ravejs": "^1.18.17",
     "zod": "^4.3.5"
   }
 }

@@ -1,4 +1,5 @@
 import z from 'zod';
+
 import { ChoiceSchema } from './inquirer';
 
 export const LocaleSchema = z.object({
